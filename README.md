@@ -40,5 +40,5 @@ It allows users to upload images containing text, automatically extract the text
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/SriNithya2512/Infosys-ChatBot 
+cd Infosys-ChatBot
