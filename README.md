@@ -1,9 +1,44 @@
-# Streamlit Chatbot using Ollama Open Source LLMs
+# 🧠 ChatGPT Clone with OCR Integration  
 
-The codebase has code for building Chatbot using the Streamlit Python library. For accessing LLMs, it uses the Ollama Python library which is a wrapper around Ollama REST APIs.
+An intelligent **ChatGPT-style conversational web app** built using **Streamlit** — enhanced with **OCR (Optical Character Recognition)** and **Ollama Llama2** integration.  
+It allows users to upload images containing text, automatically extract the text in the backend, and then interact conversationally with the extracted content.  
 
-Ollama is a CLI tool that lets us run open-source LLMs on our computers for free.
+---
 
-Feel free to check the below video to understand the code and set up Chatbot on your computer.
+## 🚀 Key Features  
 
-* [Streamlit Chatbot](https://www.youtube.com/watch?v=gC5PxV-pfBU)
+- 💬 **ChatGPT-like Interface:** Clean, two-sided chat layout for smooth conversation flow.  
+- 📸 **Automatic OCR Integration:** Extracts text instantly from uploaded images in the backend.  
+- 🖼️ **Neat Image Display:** Uploaded images appear on the right side — keeping the chat area clean.  
+- 🧠 **Backend AI Responses:** Uses **Llama2 model** from Ollama for intelligent text generation.  
+- 📂 **Multiple Chats:** Easily switch or start new chats from the sidebar.  
+- 🔄 **Session Storage:** Each chat retains its own uploaded image and conversation.  
+- ⚡ **Built on Streamlit:** Fully Python-based, lightweight, and easy to run locally.  
+
+---
+
+## 🏗️ Project Milestones  
+
+### 🧩 Milestone 1 — Streamlit UI Development  
+- Created a dynamic and interactive chat interface.  
+- Added sidebar for managing multiple conversations.  
+- Designed user-friendly chat bubbles for users and bot messages.  
+
+### 🤖 Milestone 2 — Ollama (Llama2) Model Integration  
+- Integrated **Llama2 model** hosted locally via Ollama.  
+- Enabled prompt-based generation for contextual replies.  
+- Connected backend AI response with chat interface dynamically.  
+
+### 📸 Milestone 3 — OCR Integration  
+- Integrated **Tesseract OCR** to extract text from images.  
+- Automatic extraction triggered upon image upload (no button needed).  
+- Extracted text remains hidden from UI — processed internally for AI reply.  
+
+---
+
+## ⚙️ Installation & Setup  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/SriNithya2512/Infosys-ChatBot 
+cd Infosys-ChatBot
